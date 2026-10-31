@@ -19,7 +19,7 @@ app.use(cookieParser());
 // Health API
 app.get("/api/health", (req, res) => {
   res.status(200).json({
-    message: "Blog API is running",
+    message: "Blog API is working",
   });
 });
 
